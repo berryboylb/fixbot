@@ -240,6 +240,9 @@ nav .request a::after {
   nav .nav-links {
     width: 90%;
   }
+  nav .nav-links a {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
