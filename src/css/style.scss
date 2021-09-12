@@ -224,8 +224,9 @@ nav {
 @media screen and (max-width:1024px){
     nav {
         // justify-content: space-evenly;
+        
         .nav-links {
-            width: 80%; 
+            width: 90%; 
         }
     }
    
@@ -260,7 +261,7 @@ nav {
            
         }
     }
-    
+
     @keyframes navlinkFade {
         from {
             opacity: 0;
