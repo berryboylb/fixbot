@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    height: 8vh;
+    background: #fff;
+    box-shadow: 0px 1px 0px #E5E9F2;
+    position: relative;
+    z-index: 2;
+    padding: 2%;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            margin-right: 3%;
+            height: 48px;
+        } 
+    }
+
+    .nav-links {
+        display: flex;
+        width: 70%; 
+        justify-content: space-between;
+        text-transform: capitalize;
+    }
+    
+    .nav-links li {
+        list-style: none;
+    }
+    
+    .nav-links a {
+        color: #BFAFAF;
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: 700;
+        font-size: 1rem;
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .nav-links a:hover {
+        opacity: 0.9;
+    }
+    .nav-links a:focus {
+        opacity: 0.7;
+    }
+    
+    .nav-links a::after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        top: 25px;
+        width: 0%;
+        height: 2px;
+        border-radius: 10px;
+        margin: auto;
+        transition: all .4s;
+        opacity: 0;
+        background-color: #000;
+    }
+
+    .nav-links a:hover::after{
+        width: 100%;
+        opacity: 1;
+    }
+
+    .active {
+        color: #000 !important;
+        // text-decoration: none;
+        // letter-spacing: 3px;
+        // font-weight: 700;
+        // font-size: 1rem;
+        // position: relative;
+        // font-family: 'Poppins', sans-serif;
+    }
+
+    .burger {
+        display: none;
+        cursor: pointer;
+        z-index: 99;
+    }
+    
+    
+    .burger .line0 {
+        width: 30px;
+        height: 3px;
+        background: #213654;
+        margin: 5px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+    
+    .burger .line1 {
+        width: 30px;
+        height: 3px;
+        background: #213654;
+        margin: 5px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+    
+    .burger .line2 {
+        width: 30px;
+        height: 3px;
+        background: #213654;
+        margin: 5px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    .bro {
+        display: none;
+        cursor: pointer;
+        z-index: 99;
+    }
+    
+    
+    .bro .line0 {
+        width: 30px;
+        height: 3px;
+        margin: 5px;
+        border-radius: 8px;
+        transform: rotate(-45deg) translate(-5px, 6px);
+        background: #213654;
+        transition: all 0.3s ease;
+    }
+    
+    .bro .line1 {
+        width: 30px;
+        height: 3px;
+        background: #213654;
+        margin: 5px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        opacity: 0;
+    }
+    
+    .bro .line2 {
+        width: 30px;
+        height: 3px;
+        background: #213654;
+        margin: 5px;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        transform: rotate(42deg) translate(-5px, -7px);
+        margin-top: 5px;
+    }
+
+    
+
+    .login {
+        a {
+            color:  #223256;
+            border-radius: 12px;
+            padding: 10px 15px;
+            
+            &:hover {
+                background: #223256;
+                color: #fff !important;
+                opacity: 1 !important;
+            }
+
+            &::after{
+                position: absolute;
+                content: '';
+                bottom: 0;
+                left: 0;
+                top: 25px;
+                width: 0%;
+                height: 0px;
+                border-radius: 10px;
+                margin: auto;
+                transition: all .4s;
+            }
+        }
+       
+    }
+
+    .request {
+        a {
+            color:  #223256;
+            border-radius: 12px;
+            padding: 10px 15px !important;
+            background: #223256;
+            color: #fff !important;
+            &:hover {
+                opacity: 0.8;
+            }
+
+            &::after{
+                position: absolute;
+                content: '';
+                bottom: 0;
+                left: 0;
+                top: 25px;
+                width: 0%;
+                height: 0px;
+                border-radius: 10px;
+                margin: auto;
+                transition: all .4s;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px){
+    nav {
+        // justify-content: space-evenly;
+        .nav-links {
+            width: 80%; 
+        }
+    }
+   
+}
+
+@media screen and (max-width:768px) {
+
+    nav {
+        // justify-content: space-evenly;
+        .nav-links {
+            display: none;
+        }
+    
+        .nav-links li {
+            opacity: 0;
+            margin-top: 0;
+            font-size: 12px;
+        }
+    
+        .burger, .bro {
+            display: block;
+        }
+
+        .logo {
+           z-index: 5;
+            img {
+                height: 25px;
+                align-self: center;
+                justify-self: center;
+                margin-top: 5.5px;
+            } 
+           
+        }
+    }
+    
+    @keyframes navlinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+}
+
+.nav-active {
+    transform: translate(0%);
+    position: absolute;
+    right: 0;
+    height: 90vh;
+    top: 0;
+    background:#fff;
+    color: #573F7B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    transition: transform 0.5s ease-in;
+    z-index: 4;
+
+    li {
+        list-style: none;
+    }
+    
+    a {
+        color: #BFAFAF;
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: 700;
+        font-size: 1rem;
+        position: relative;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    a:hover {
+        opacity: 0.9;
+    }
+    a:focus {
+        opacity: 0.7;
+    }
+    
+    a::after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        top: 25px;
+        width: 0%;
+        height: 2px;
+        border-radius: 10px;
+        margin: auto;
+        transition: all .4s;
+        opacity: 0;
+        background-color: #000;
+    }
+
+    a:hover::after{
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+
+

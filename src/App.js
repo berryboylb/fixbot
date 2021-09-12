@@ -1,11 +1,44 @@
-import './App.css';
-
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import "./css/style.css";
 function App() {
   return (
-    <div className="App">
-      <img src="/work.jpg" alt="progress" />
-        <h1>Fixbot landing Page</h1>
-    </div>
+    <>
+   <Router>
+        <div className="App">
+          <Navbar/>
+            <Switch>
+              <Route exact path = "/">
+                home
+              </Route>
+              <Route path = '/services'>
+                services
+              </Route>
+              <Route path = '/about'>
+                about
+              </Route>
+              <Route path = '/blog'>
+                  blog
+              </Route>
+              <Route path = '/contact us'>
+                contact us
+              </Route>
+              <Route path = '/request access'>
+                request access
+              </Route>
+            </Switch>
+        </div>
+    </Router>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/login">
+            login
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+    </>
   );
 }
 
