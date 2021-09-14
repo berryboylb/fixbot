@@ -2,7 +2,7 @@ const Reason = ({reasons}) => {
     return (
         <div className="resort">
             {reasons.map((reason)=>(
-                <div className="boost">
+                <div className="boost" key={reason.id}>
                     <div className="resort-inner" key={reason.id}>
                         <div className="fin">
                             <img src={reason.img_src} alt="" />

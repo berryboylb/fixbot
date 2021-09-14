@@ -17,41 +17,49 @@ const Features = () => {
     ]
     const features = [
         {
+            id: 1,
             feauture: "Modern Vehicle Diagnostics",
             fixbot: "✔",
             others: "✔"
         },
         {
+            id: 2,
             feauture: "Real-Time Data & Tracking",
             fixbot: "✔",
             others: "✔"
         },
-        {
+        {   
+            id: 3,
             feauture: "SOS Emergency Assistance",
             fixbot: "✔",
             others: "✔"
         },
         {
+            id: 4,
             feauture: "Fuel Consumption Efficiency",
             fixbot: "✔",
             others: "✔"
         },
         {
+            id: 5,
             feauture: "Access to Auto-parts Dealers",
             fixbot: "✔",
             others: "-"
         },
         {
+            id: 6,
             feauture: "Access to mechanics nationwide",
             fixbot: "✔",
             others: "-"
         },
         {
+            id: 7,
             feauture: "Attractive pricing",
             fixbot: "✔",
             others: "-"
         },
         {
+            id: 8,
             feauture: "Dashboard Access for personal monitoring",
             fixbot: "✔",
             others: "-"
@@ -73,7 +81,8 @@ const Features = () => {
                     <div className="feature1">
                         {features.map((feature) => (
                                 <>
-                                <p>{feature.feauture}</p>
+                                
+                                <p key={feature.id}>{feature.feauture}</p>
                                 <p className="green">{feature.fixbot}</p>
                                 <p className="green">{feature.others}</p>
                                 </>

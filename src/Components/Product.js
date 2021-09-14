@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faCheckCircle} from '@fortawesome/free-solid-svg-icons';
 import H1 from "./H1"
 import H3 from "./H3"
-import P from "./P"
 const Product = ({products}) => {
     return (
         <div className="product">
@@ -19,7 +18,7 @@ const Product = ({products}) => {
                             <p><FontAwesomeIcon className= "con" icon={faCheckCircle} /> {product.op3}</p>
                             <p><FontAwesomeIcon className= "con" icon={faCheckCircle} /> {product.op4}</p>
                         </div>
-                        <a href="#">{product.link}</a>
+                        <a href="{product.link}">{product.link}</a>
                     </div>
                 ))
             }
