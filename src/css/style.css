@@ -664,4 +664,301 @@ video {
 .features .features-inner .cont .feature1 .green {
   color: #91D738;
 }
+
+.why-choose {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.why-choose .why-choose-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.why-choose .why-choose-inner h3, .why-choose .why-choose-inner p {
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+.why-choose .why-choose-inner .reason-cont {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.why-choose .why-choose-inner .reason-cont .resort {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25%  25% 25%;
+      grid-template-columns: 25% 25%  25% 25%;
+  background: #FFFFFF;
+}
+
+.why-choose .why-choose-inner .reason-cont .resort .resort-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 120px;
+  padding: 5%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  -webkit-box-shadow: 10px 32px 50px rgba(51, 51, 51, 0.03);
+          box-shadow: 10px 32px 50px rgba(51, 51, 51, 0.03);
+}
+
+.why-choose .why-choose-inner .reason-cont .resort .resort-inner .fin {
+  width: 20%;
+  height: 100%;
+}
+
+.why-choose .why-choose-inner .reason-cont .resort .resort-inner .fin img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.why-choose .why-choose-inner .reason-cont .resort .resort-inner .p2 {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.why-choose .why-choose-inner .reason-cont .resort .resort-inner .p2 p {
+  text-align: left;
+}
+
+.why-choose .why-choose-inner .reason-cont .resort .resort-inner .p2 .bold {
+  font-weight: bold;
+}
+
+.why-choose .why-choose-inner .reason-cont .resort .resort-inner .p2 .pale {
+  font-size: 0.8rem;
+}
+
+.products {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.products .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.products .inner h3, .products .inner p {
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+.products .inner .product {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 16px;
+  margin-top: 5%;
+}
+
+.products .inner .product .Standard {
+  background: #213654;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 8px 32px rgba(59, 59, 59, 0.04) !important;
+          box-shadow: 0px 8px 32px rgba(59, 59, 59, 0.04) !important;
+  width: 30%;
+  padding: 2%;
+  border-radius: 16px;
+}
+
+.products .inner .product .Standard .icon {
+  color: #F4BC4D;
+}
+
+.products .inner .product .Standard .starred {
+  display: block;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.products .inner .product .Standard h1, .products .inner .product .Standard h3, .products .inner .product .Standard p {
+  color: #fff;
+}
+
+.products .inner .product .Standard .snip {
+  display: block;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.products .inner .product .Standard div {
+  margin-bottom: 5%;
+}
+
+.products .inner .product .Standard div p {
+  text-align: left;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+.products .inner .product .Standard div p .con {
+  color: #fff;
+}
+
+.products .inner .product .Standard a {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 30px;
+  text-align: center;
+  background: #fff;
+  color: #213654;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  padding: 2%;
+  margin-top: 5%;
+  border-radius: 12px;
+  margin-bottom: 5%;
+}
+
+.products .inner .product .Standard a:hover {
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+}
+
+.products .inner .product .Basic, .products .inner .product .Enterprise {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 8px 32px rgba(59, 59, 59, 0.04) !important;
+          box-shadow: 0px 8px 32px rgba(59, 59, 59, 0.04) !important;
+  width: 30%;
+  padding: 2%;
+  border-radius: 16px;
+}
+
+.products .inner .product .Basic .starred, .products .inner .product .Enterprise .starred {
+  display: none;
+}
+
+.products .inner .product .Basic .icon, .products .inner .product .Enterprise .icon {
+  color: #F4BC4D;
+}
+
+.products .inner .product .Basic h1, .products .inner .product .Basic h3, .products .inner .product .Basic p, .products .inner .product .Enterprise h1, .products .inner .product .Enterprise h3, .products .inner .product .Enterprise p {
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+.products .inner .product .Basic .snip, .products .inner .product .Enterprise .snip {
+  display: block;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.products .inner .product .Basic div, .products .inner .product .Enterprise div {
+  margin-bottom: 5%;
+}
+
+.products .inner .product .Basic div p, .products .inner .product .Enterprise div p {
+  text-align: left;
+  color: #6E6E6E;
+  margin-bottom: 5%;
+}
+
+.products .inner .product .Basic div p .con, .products .inner .product .Enterprise div p .con {
+  color: #213654;
+}
+
+.products .inner .product .Basic a, .products .inner .product .Enterprise a {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 30px;
+  text-align: center;
+  background: #213654;
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  padding: 2%;
+  margin-top: 5%;
+  border-radius: 12px;
+}
+
+.products .inner .product .Basic a:hover, .products .inner .product .Enterprise a:hover {
+  border: 1px solid #213654;
+  background: none;
+  color: #213654;
+}
 /*# sourceMappingURL=style.css.map */

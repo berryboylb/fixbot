@@ -1,6 +1,8 @@
 import AboutVideo from "./AboutVideo"
 import Banner from "./Banner"
 import Features from "./Features"
+import Products from "./Products"
+import WhyChoose from "./WhyChoose"
 
 const Home = () => {
     return (
@@ -8,6 +10,8 @@ const Home = () => {
             <Banner/>
             <AboutVideo/>
             <Features/>
+            <WhyChoose/>
+            <Products/>
         </div>
     )
 }
