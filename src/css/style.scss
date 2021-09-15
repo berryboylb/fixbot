@@ -174,7 +174,7 @@ nav {
         a {
             color:  #223256;
             border-radius: 12px;
-            padding: 7px 10px;
+            padding: 10px 15px;
             
             &:hover {
                 background: #223256;
@@ -202,7 +202,7 @@ nav {
         a {
             color:  #223256;
             border-radius: 12px;
-            padding: 7px 10px !important;
+            padding: 10px 15px !important;
             background: #223256;
             color: #fff !important;
             &:hover {
@@ -461,7 +461,10 @@ video {
 .banner {
     background: #EBF3F3;
     width: 100%;
-    height: 500px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 3%;
+    // height: 500px;
 
     .banner-inner {
         height: 100%;
@@ -1009,8 +1012,8 @@ video {
 }
 
 .waitlist {
-    margin-top: 5%;
-    height: 400px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background: #fff;
     .inner {
         display: flex;
