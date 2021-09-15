@@ -844,6 +844,18 @@ video {
   font-size: 0.75rem;
 }
 
+.products .inner .product .Standard h1 {
+  font-size: 2.5rem;
+}
+
+.products .inner .product .Standard h3 {
+  font-size: 1.8rem;
+}
+
+.products .inner .product .Standard p {
+  font-size: 0.875rem;
+}
+
 .products .inner .product .Standard h1, .products .inner .product .Standard h3, .products .inner .product .Standard p {
   color: #fff;
 }
@@ -857,6 +869,7 @@ video {
 
 .products .inner .product .Standard div {
   margin-bottom: 5%;
+  width: 90%;
 }
 
 .products .inner .product .Standard div p {
@@ -922,6 +935,18 @@ video {
   color: #F4BC4D;
 }
 
+.products .inner .product .Basic h1, .products .inner .product .Enterprise h1 {
+  font-size: 2.5rem;
+}
+
+.products .inner .product .Basic h3, .products .inner .product .Enterprise h3 {
+  font-size: 1.8rem;
+}
+
+.products .inner .product .Basic p, .products .inner .product .Enterprise p {
+  font-size: 0.875rem;
+}
+
 .products .inner .product .Basic h1, .products .inner .product .Basic h3, .products .inner .product .Basic p, .products .inner .product .Enterprise h1, .products .inner .product .Enterprise h3, .products .inner .product .Enterprise p {
   text-align: center;
   margin-bottom: 2.5%;
@@ -936,6 +961,7 @@ video {
 
 .products .inner .product .Basic div, .products .inner .product .Enterprise div {
   margin-bottom: 5%;
+  width: 90%;
 }
 
 .products .inner .product .Basic div p, .products .inner .product .Enterprise div p {
