@@ -1,13 +1,10 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Components/Home';
-import Navbar from './Components/Navbar';
 import "./css/style.css";
 function App() {
   return (
-    <>
    <Router>
         <div className="App">
-          <Navbar/>
             <Switch>
               <Route exact path = "/">
                 <Home/>
@@ -28,18 +25,13 @@ function App() {
                 request access
               </Route>
             </Switch>
-        </div>
-    </Router>
-    <Router>
-      <div>
-        <Switch>
+            <Switch>
           <Route path="/login">
             login
           </Route>
         </Switch>
-      </div>
+        </div>
     </Router>
-    </>
   );
 }
 

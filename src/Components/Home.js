@@ -7,10 +7,12 @@ import Products from "./Products"
 import Testimonies from "./Testimonies"
 import Wailist from "./Wailist"
 import WhyChoose from "./WhyChoose"
+import Navbar from "./Navbar"
 
 const Home = () => {
     return (
         <div>
+            <Navbar/>
             <Banner/>
             <AboutVideo/>
             <Features/>
