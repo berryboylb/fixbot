@@ -1,7 +1,7 @@
 import H1 from "./H1"
 import H3 from "./H3"
-import NewsletterForm from "./NewsletterForm";
 import P from "./P"
+import WaitlistForm from "./WaitlistForm";
 const Banner = () => {
 
     const header = "Your No. 1 stop for all your vehicle needs.";
@@ -13,7 +13,7 @@ const Banner = () => {
                 <H1 content = {header}/>
                 <P content= {paragraph}/>
                 <H3 content= {smallHeader}/>
-                <NewsletterForm/>
+                <WaitlistForm/>
             </div>
         </section>
     )

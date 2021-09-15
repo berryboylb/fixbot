@@ -1,5 +1,5 @@
 import { useState } from "react";
-const NewsletterForm = () => {
+const WaitlistForm = () => {
     const [email, setEmail] = useState("");
     
     const handleForm = (e)=> {
@@ -12,10 +12,10 @@ const NewsletterForm = () => {
                 <input type="email" value={email} onChange={(e)=> {setEmail(e.target.value)}} placeholder="Enter your email address here"/>
             </div>
             <div className="submit-btn">
-                <input type="submit" value="Get Updates" />
+                <input type="submit" value="Register now" />
             </div>
         </form>
     )
 }
 
-export default NewsletterForm
+export default WaitlistForm
