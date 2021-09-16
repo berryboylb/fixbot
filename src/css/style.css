@@ -1376,8 +1376,8 @@ video {
 .testimonies .inner .testimony {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  -ms-grid-columns: 33.3% 33.3% 33.3%;
+      grid-template-columns: 33.3% 33.3% 33.3%;
   margin-top: 2%;
 }
 
