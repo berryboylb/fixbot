@@ -81,7 +81,7 @@ const Features = () => {
                     <div className="feature1">
                         {features.map((feature) => (
                                 <>
-                                <p key={feature.id}>{feature.feauture}</p>
+                                <p key={feature.id} className="left">{feature.feauture}</p>
                                 <p className="green">{feature.fixbot}</p>
                                 <p className="green">{feature.others}</p>
                                 </>

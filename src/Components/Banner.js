@@ -4,7 +4,7 @@ import P from "./P"
 import WaitlistForm from "./WaitlistForm";
 const Banner = () => {
 
-    const header = "Your No. 1 stop for all your vehicle needs.";
+    const header = "Never Guess the Faults of Your Car again";
     const paragraph = "With FixBot tracking your vehicle needs, You don’t have to worry about breakdowns anymore. Stop the guesswork. Get early access to our services today."
     const smallHeader = "Join the waitlist";
     return (

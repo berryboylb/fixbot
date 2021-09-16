@@ -17,7 +17,7 @@ const AboutVideo = () => {
                     <P content={paragraph}/>
                     <Link to="learn more">Learn More <FontAwesomeIcon className= "icon" icon={faChevronRight} /></Link>
                 </div>
-                <div>
+                <div className="video-con">
                     <Video/>
                 </div>
             </div>
