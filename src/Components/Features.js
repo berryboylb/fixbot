@@ -113,7 +113,7 @@ const Features = () => {
             </div>
 
                 <div className="cont1">
-                    <Carousel className="carousel" 
+                <Carousel className="carousel" 
                     responsive={responsive}
                     swipeable={true}
                     draggable={true}

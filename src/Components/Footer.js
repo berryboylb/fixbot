@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faEnvelope, faPhone, faCopyright} from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope, faPhone, faCopyright, faCircle} from '@fortawesome/free-solid-svg-icons'
 import { faTwitter, faFacebook, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import { Link } from 'react-router-dom';
 const Footer = () => {
@@ -54,9 +54,13 @@ const Footer = () => {
                 </div>
                 </div>
                 <div className="rights">
+                    <ul>
+                        <li><FontAwesomeIcon className= "cons" icon={faCircle} /> <Link to="terms">Terms and Conditions</Link></li>
+                        <li><FontAwesomeIcon className= "cons" icon={faCircle} /> <Link to="privacy">Privacy Policy</Link></li>
+                    </ul>
                     <p><FontAwesomeIcon className= "cons" icon={faCopyright} /> 2021. FixBot Technologies Limited. All Rights Reserved.</p>
-                    <p><Link to="terms">Terms and Conditions</Link></p>
-                    <p><Link to="privacy">Privacy Policy</Link></p>
+                    <p className="hide"><Link to="terms">Terms and Conditions</Link></p>
+                    <p className="hide"><Link to="privacy">Privacy Policy</Link></p>
                 </div>
             </div>
         </footer>
