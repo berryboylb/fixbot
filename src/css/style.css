@@ -107,7 +107,7 @@ nav .nav-links a:hover::after {
   opacity: 1;
 }
 
-nav .active {
+nav .activate {
   color: #000 !important;
 }
 

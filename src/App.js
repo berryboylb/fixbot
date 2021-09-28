@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './Components/Home';
+import Login from './Components/login/Index'
 import "./css/style.css";
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
             </Switch>
             <Switch>
           <Route path="/login">
-            login
+            <Login/>
           </Route>
         </Switch>
         </div>
