@@ -40,13 +40,12 @@ const Product = ({products}) => {
                             <p><FontAwesomeIcon className= "con" icon={faCheckCircle} /> {product.op3}</p>
                             <p><FontAwesomeIcon className= "con" icon={faCheckCircle} /> {product.op4}</p>
                         </div>
-                        <a href="{product.link}">{product.link}</a>
+                        <a href={product.link}>{product.link}</a>
                     </div>
                 ))
             }
         </div>
-
-        <Carousel className="product1" 
+        {/* <Carousel className="product1" 
         responsive={responsive}
         swipeable={true}
         draggable={true}
@@ -70,7 +69,7 @@ const Product = ({products}) => {
                     </div>
                 ))
             }
-        </Carousel>
+        </Carousel> */}
         </>
     )
 }
